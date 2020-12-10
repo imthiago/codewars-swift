@@ -6,5 +6,6 @@
         <page name='Functional Addition'/>
         <page name='CamelCase Method'/>
         <page name='Reversed Strings'/>
+        <page name='Sum of two lowest positive integers'/>
     </pages>
 </playground>
