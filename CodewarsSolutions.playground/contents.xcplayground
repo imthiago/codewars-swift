@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true'>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true'>
     <pages>
         <page name='Calculate BMI'/>
         <page name='String repeat'/>
@@ -7,5 +7,6 @@
         <page name='CamelCase Method'/>
         <page name='Reversed Strings'/>
         <page name='Sum of two lowest positive integers'/>
+        <page name='Don&apos;t give me five!'/>
     </pages>
 </playground>
