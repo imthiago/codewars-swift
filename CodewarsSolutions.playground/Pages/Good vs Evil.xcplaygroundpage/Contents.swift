@@ -1,7 +1,6 @@
 import Foundation
 
 func evaluate(good: String, vsEvil evil: String) -> String {
-    
     let goodWorths = [1, 2, 3, 3, 4, 10]
     let evilWorths = [1, 2, 2, 2, 3, 5, 10]
     
@@ -12,7 +11,7 @@ func evaluate(good: String, vsEvil evil: String) -> String {
         element * goodWorths[index]
     }.reduce(0, +)
     
-    let totalEvilWorths = evils.enumerated().map { (index, element) in
+    let totalEvilWorths = evils.enumerated().map { index, element in
         element * evilWorths[index]
     }.reduce(0, +)
     

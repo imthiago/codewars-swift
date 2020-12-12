@@ -1,9 +1,5 @@
-//: [Previous](@previous)
-
 import Foundation
 
 func camelCase(_ str: String) -> String {
-    str.capitalized.trimmingCharacters(in: .whitespacesAndNewlines)
+    str.components(separatedBy: " ").map { $0.capitalized }.joined()
 }
-
-camelCase("camel case word");
